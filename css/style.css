@@ -208,7 +208,9 @@ main{
 .home_scroll:hover {
   transform: scale(1.1);
 }
-
+.home_scroll a{
+  color: #4d36d0be;
+}
 
 /* home section end */
 
@@ -911,7 +913,7 @@ text-decoration: none;
 
 .contact_input{
   font-size: 18px;
-  color: wheat;
+  color: black;
   background-color: transparent;
   border: none;
   outline: none;
@@ -1005,6 +1007,11 @@ text-decoration: none;
             transform: translateY(-0.1em);
   }
 }
+
+.alert_style{
+  font-size: 25px;
+    color: #00a200;
+}
 /* contacxt section ends */
 
 
@@ -1039,6 +1046,9 @@ text-decoration: none;
   }
 }
 @media (max-width: 800px){
+  .empty{
+    display: none;
+  }
   .home_scroll{
     display: none;
   }
